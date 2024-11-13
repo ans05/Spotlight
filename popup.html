@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotlight</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Spotlight</h1>
+
+  <!-- Pomodoro Timer -->
+  <div id="pomodoro">
+    <h2>Pomodoro Timer</h2>
+    <p id="timer">25:00</p>
+    <button id="start-timer">Start</button>
+    <button id="reset-timer">Reset</button>
+  </div>
+
+  <!-- Task Manager -->
+  <div id="tasks">
+    <h2>Task Manager</h2>
+    <input type="text" id="new-task" placeholder="New task">
+    <button id="add-task">Add</button>
+    <ul id="task-list"></ul>
+  </div>
+
+  <!-- Website Blocker -->
+  <div id="blocker">
+    <h2>Website Blocker</h2>
+    <input type="text" id="block-url" placeholder="Enter URL">
+    <button id="block-site">Block</button>
+    <ul id="blocked-list"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
